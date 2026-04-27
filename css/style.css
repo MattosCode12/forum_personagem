@@ -1,0 +1,13 @@
+body {
+    background-image: url('../assets/image/fundo_shrek2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.h1, p {
+    color: white;
+    background: rgba(92, 143, 72, 0.7); /* fundo preto transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
