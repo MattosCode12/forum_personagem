@@ -11,3 +11,29 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+.barra-personagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.8); /* fundo preto */
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.personagem {
+    text-align: center;
+    color: white;
+}
+
+.personagem img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.personagem p {
+    margin-top: 5px;
+}
