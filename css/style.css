@@ -8,7 +8,7 @@ body {
 }
 .h1, p {
     color: white;
-    background: rgba(92, 143, 72, 0.7); /* fundo preto transparente */
+    background: rgba(92, 143, 72, 0.7); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    background: rgba(0, 0, 0, 0.8); /* fundo preto */
+    background: none;
     padding: 15px;
     margin: 20px;
     border-radius: 10px;
@@ -37,4 +37,9 @@ body {
 
 .personagem p {
     margin-top: 5px;
+}
+.card {
+    background: none;
+    border: none;
+    border-radius: 10px;
 }
