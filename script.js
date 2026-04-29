@@ -14,7 +14,7 @@ function login() {
         erro.innerText = "Usuário ou senha incorretos!";
     }
 }
-window.onload = function() {
+window.onload = function () {
     mostrarComentarios();
 }
 
